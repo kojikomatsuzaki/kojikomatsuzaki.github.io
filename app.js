@@ -40,3 +40,15 @@ function renderProject(project) {
 
 projectCount.textContent = `${projects.length}件`;
 projectGrid.innerHTML = projects.map(renderProject).join('');
+
+/* 04. 代表的な公開コンテンツへの入口 */
+const featuredGrid = document.querySelector('#featured-grid');
+if (featuredGrid) {
+  featuredGrid.innerHTML = projects.filter(project => project.featured && project.page).map(project => `
+    <article class="featured-card">
+      <p class="featured-status">${escapeHtml(project.status)}</p>
+      <h3>${escapeHtml(project.name)}</h3>
+      <p>${escapeHtml(project.caption)}</p>
+      <a href="${escapeHtml(project.page)}">公開ページを見る →</a>
+    </article>`).join('');
+}
