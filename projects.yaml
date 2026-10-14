@@ -1,0 +1,42 @@
+# 公開プロジェクトのナビゲーション正本（初期版）
+# 公開サイトがない場合は repository URL を案内する。
+projects:
+  - name: 総合ポータル
+    repository: kojikomatsuzaki.github.io
+    url: https://kojikomatsuzaki.github.io/
+  - name: 日立市天気相談所 観測データ
+    repository: hitachi-weather-data
+    url: https://kojikomatsuzaki.github.io/hitachi-weather-data/
+  - name: 茨城県の気象データ
+    repository: ibaraki-weather-data
+    url: https://kojikomatsuzaki.github.io/ibaraki-weather-data/
+  - name: 新荘音頭 デジタルアーカイブ
+    repository: shinso-ondo
+    url: https://kojikomatsuzaki.github.io/shinso-ondo/
+  - name: 茨城県 風景印地図
+    repository: ibaraki-fukeiin-map
+    url: https://kojikomatsuzaki.github.io/ibaraki-fukeiin-map/
+  - name: 那珂市刊行物目次データ
+    repository: naka-city-publications
+    url: https://kojikomatsuzaki.github.io/naka-city-publications/
+  - name: オープン二次データ
+    repository: open-secondary-data
+    url: https://kojikomatsuzaki.github.io/open-secondary-data/
+  - name: Interval Timer
+    repository: interval-timer
+    url: https://kojikomatsuzaki.github.io/interval-timer/
+  - name: Screenshot Stitcher
+    repository: screenshot-stitcher
+    url: https://kojikomatsuzaki.github.io/screenshot-stitcher/
+  - name: DIY Tea
+    repository: diytea
+    url: https://kojikomatsuzaki.github.io/diytea/
+  - name: English Slot
+    repository: english-slot
+    url: https://kojikomatsuzaki.github.io/english-slot/
+  - name: Grants for Primary Education
+    repository: grants-for-primary-education
+    url: https://github.com/kojikomatsuzaki/grants-for-primary-education
+  - name: Exercises
+    repository: exercises
+    url: https://github.com/kojikomatsuzaki/exercises
