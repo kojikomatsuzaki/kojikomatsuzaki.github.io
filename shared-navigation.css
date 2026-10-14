@@ -1,0 +1,11 @@
+/* ==========================================
+   Shared Navigation — v0.1 (namespaced)
+========================================== */
+#shared-navigation { margin-left: auto; color: #453c61; font-size: 14px; }
+#shared-navigation .shared-nav { position: relative; }
+#shared-navigation summary { cursor: pointer; padding: 9px 13px; border-radius: 8px; background: #fff; list-style: none; font-weight: 600; }
+#shared-navigation summary::-webkit-details-marker { display: none; }
+#shared-navigation ul { position: absolute; z-index: 30; right: 0; top: 100%; width: min(340px, 85vw); max-height: 65vh; overflow: auto; margin: 5px 0 0; padding: 8px; list-style: none; background: #fff; border: 1px solid #e3d9e7; border-radius: 10px; box-shadow: 0 8px 22px #30234b30; }
+#shared-navigation a { display: block; padding: 7px 9px; color: #453c61; border-radius: 5px; }
+#shared-navigation a[aria-current=page] { font-weight: 700; background: #f1edf9; }
+#shared-navigation a:focus-visible { outline: 3px solid #6d66b3; }
