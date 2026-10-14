@@ -34,3 +34,15 @@ a:focus-visible { outline: 3px solid var(--blue); outline-offset: 4px; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .project-card { transition: none; } }
 .site-footer a { color: var(--blue); }
 @media (max-width: 680px) { .container { width: min(var(--max), calc(100% - 30px)); } .header-inner { min-height: 125px; align-items: start; flex-direction: column; justify-content: end; gap: 8px; } .intro { margin-top: 42px; } .project-grid { grid-template-columns: 1fr; } .project-card { min-height: 0; padding: 24px 21px 20px; } .site-footer { flex-direction: column; margin-top: 48px; } }
+
+/* 05. 代表的な公開コンテンツ */
+.featured-section { margin: 0 0 48px; }
+.featured-section h2 { margin: 0 0 4px; font-size: clamp(22px, 3vw, 29px); }
+.featured-intro { margin: 0 0 18px; color: var(--muted); font-size: 14px; }
+.featured-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.featured-card { display: flex; flex-direction: column; padding: 22px; border: 1px solid var(--line); border-radius: 14px; background: #fffdfd; box-shadow: 0 5px 0 rgba(233,139,167,.08); }
+.featured-status { align-self: flex-start; margin: 0 0 12px; padding: 3px 11px; border: 1px solid #c8bddb; border-radius: 20px; color: #453c61; background: #f4eff9; font-size: 12px; font-weight: 700; }
+.featured-card h3 { margin: 0 0 12px; font-size: 20px; line-height: 1.4; }
+.featured-card > p:not(.featured-status) { margin: 0 0 20px; color: #3e5552; font-size: 13px; }
+.featured-card a { margin-top: auto; font-weight: 700; text-underline-offset: 3px; }
+@media (max-width: 760px) { .featured-grid { grid-template-columns: 1fr; } }
